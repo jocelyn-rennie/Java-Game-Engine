@@ -1,0 +1,41 @@
+player:Jocelyn
+score:10,20
+map:r1,2,5,@,1,0,fd1
+    room:r1,Basement,You've woken up in the basement where your neighbour trapped you.,false
+        equipment:k0,key,An old rusty key.,false,false,open,t1,p1,You used the old rusty key to open the toolbox. There's something in the toolbox.
+        container:t1,toolbox,The toolbox, it needs a key to open it.,false
+        item:p1,pliers,A pair of metal pliers.,true
+        item:w1,wire,A thin metal wire., false
+        equipment:l0,lockpick,A lockpick crafted from wire.,true,false,open,d1,e1,You used the lockpick to open the door.,pliers,wire
+        feature:d1,lockeddoor,A locked door.,false
+        exit:e1,west,A door to the western side of the room.,r2,true
+    room:r2,Corridor 1,You are in the first corridor.,false
+        exit:e2,south,A door at the southern end of the room.,r3,false
+    room:r3,The Storage room,This is where the old lady hoards items.,false
+        equipment:c1,coin,A metal coin.,false,false,play,cm1,sti1,You used the coin in the clawmachine. Something fell out the bottom...
+        container:cm1,clawmachine,A clawmachine game.,false
+        item:sto1,stone,A large stone.,false
+        item:sti1,stick,A wooden stick.,true
+        equipment:a1,axe,An axe made from wood and stone.,true,false,cut,d3,e3,You used the axe to cut the chains around the door.,stone,stick
+        feature:d3,chaineddoor,A chained shut door.,false
+        exit:e3,south,A door at the southern end of the room.,r4,true
+    room:r4,Corridor 2,You are in the second corridor.,false
+        exit:e4,south,A door at the southern end of the room.,r5,false
+    room:r5,The pantry,You are in the pantry where the neighbour goes for food.,false
+        item:ti1,tin,A metal tin of dogfood.,false
+        item:to1,tinopener,A metal tin opener., this may be needed in the next room.,false
+        equipment:d1,dogfood,Dogfood to feed the old lady's pet.,true,false,feed,d1,k1,You distracted the dog with the food and can see the key around its neck.,tin,tinopener
+        exit:e5,south,A door at the southern end of the room.,r6,false
+    room:r6,The stairs,The old wooden stairs. Go up quick to avoid the old lady on her way to the pantry.,false
+       exit:e6,east,A door east of the room.,r7,false
+    room:r7,The toilet,The toilet. Hide here while the old lady goes to the pantry.,false
+        exit:e7,north,A door north of the room.,r8,false
+    room:r8,Corridor 3,The corridor to the living room.,false
+        exit:e8,north,A door north of the room.,r9,false
+    room:r9,The living room,The living room where your neighbour relaxes.,false
+        feature:d1,dog,The old lady's dog that guards the door. Something is around his neck.,false
+        equipment:k1,frontkey,A front door key.,true,open,false,fd1,fd1,You opened the front door and escaped!
+        exit:e9,north,A door north of the room.,r10,false
+    room:r10,The porch,The porch leads to the front door.,false
+        feature:fd1,frontdoor,The front door. This is the last door out of the house., it is locked.,false
+
