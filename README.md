@@ -22,6 +22,6 @@ This is a text-based game engine which is capable of creating any game desired t
 ## Video showcase
 
 **Follow the link for my video submission** 
-This includes all commands, additional features and examples of my code.
 
+This includes all commands, additional features and examples of my code.
 https://drive.google.com/file/d/1k8TlPrWudGNd5179zdoeNzVa9DNOI_eP/view?usp=drive_link
