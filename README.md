@@ -15,7 +15,16 @@ This is a text-based game engine which is capable of creating any game desired t
 
 ```
 
-
+move
+use
+get
+drop
+look
+status
+help
+combine
+combineinfo
+quit
 
 ```
 
