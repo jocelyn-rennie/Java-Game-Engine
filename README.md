@@ -14,7 +14,6 @@ This is a text-based game engine which is capable of creating any game desired t
 ### Example commands
 
 ```
-
 move
 use
 get
@@ -25,7 +24,6 @@ help
 combine
 combineinfo
 quit
-
 ```
 
 ## Video showcase
